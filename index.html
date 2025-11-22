@@ -31,7 +31,7 @@
 
       <nav class="nav-menu" id="nav-menu">
 
-        <a href="#about">About</a>
+        <a href="#home">About</a>
         <a href="#services">Services</a>
         <a href="#contact" class="cta-btn">Contact</a>
       </nav>
@@ -42,25 +42,22 @@
   <main>
 
   <!-- HERO SECTION -->
-  <section id="hero" class="hero">
-    <div class="wrap hero-grid">
-      <div class="hero-copy">
-        <h1>Smart, Secure ICT Solutions for Modern Businesses</h1>
-        <p class="lead">Reliable software, networks, and cybersecurity services delivered locally and professionally.</p>
-        <div class="hero-ctas">
-          <a href="#contact" class="btn btn-primary">Book a Consultation</a>
-          <a href="#services" class="btn btn-ghost">View Services</a>
-        </div>
-      </div>
+  <section id="home" class="hero hero-bg">
+  <div class="hero-overlay"></div>
 
-      <div class="hero-art">
-        <!-- optional illustration -->
-        <svg viewBox="0 0 600 400">
-          <rect x="40" y="40" width="520" height="320" rx="12" fill="rgba(11,59,114,0.15)" />
-        </svg>
-      </div>
+  <div class="hero-content">
+    <h1>Smart, Secure ICT Solutions for Modern Businesses</h1>
+    <p class="lead">Reliable software, networks, and cybersecurity services delivered locally and professionally.</p>
+
+    <div class="hero-ctas">
+      <a href="#contact" class="btn btn-primary">Book a Consultation</a>
+      <a href="https://agapeict.com" target="_blank" class="btn btn-primary">
+        Visit Our Website
+      </a>
     </div>
-  </section>
+  </div>
+</section>
+
 
 
   <!-- OUR SERVICES -->
@@ -69,43 +66,37 @@
 <h2 class="section-title">Our Services</h2>
     <p class="section-sub">Practical ICT solutions built to support your operations.</p>
 
-    <div class="cards">
+    <div class="services-grid">
 
-  <article class="card">
-    <img src="images/services/software-dev.png" alt="Software Development">
+  <div class="service-card" style="--img: url('IMAGES/Coding.jfif');">
     <h3>Software Development</h3>
-    <p>Custom applications and digital tools tailored for your workflow.</p>
-  </article>
+    <p>Custom apps and digital tools for your workflow.</p>
+  </div>
 
-  <article class="card">
-    <img src="images/services/networks.png" alt="Networks & Telecom">
+  <div class="service-card" style="--img: url('IMAGES/Exploring\ Cable-Free\ Computer\ Networks_\ Types\ and\ Uses.jfif');">
     <h3>Networks & Telecom</h3>
-    <p>Reliable connectivity setups for offices and multi-branch businesses.</p>
-  </article>
+    <p>Reliable office and multi-branch connectivity.</p>
+  </div>
 
-  <article class="card">
-    <img src="images/services/cybersecurity.png" alt="Cybersecurity">
+  <div class="service-card" style="--img: url('images/networkking.jfif');">
     <h3>Cybersecurity</h3>
-    <p>Risk assessments, protection, and monitoring for safe operations.</p>
-  </article>
+    <p>Risk assessment, protection, and monitoring.</p>
+  </div>
 
-  <article class="card">
-    <img src="images/services/design.png" alt="Design & Web">
-    <h3>Design & Web</h3>
-    <p>Modern websites and brand visuals that communicate clearly.</p>
-  </article>
+  <div class="service-card" style="--img: url('IMAGES/modem.jfif');">
+    <h3>Installation and Internet setup</h3>
+    <p> Equipment and egonomics service setup.</p>
+  </div>
 
-  <article class="card">
-    <img src="images/services/consultancy.png" alt="Consultancy">
-    <h3>ICT Consultancy</h3>
-    <p>Honest, practical guidance for digital transformation.</p>
-  </article>
+  <div class="service-card" style="--img: url('images/computer\ components.jfif');">
+    <h3>IT Equipment</h3>
+    <p>Supply and Distribution of IT equipments.</p>
+  </div>
 
-  <article class="card">
-    <img src="images/services/support.png" alt="Support & Maintenance">
+  <div class="service-card" style="--img: url('images/connection\ tech.jfif');">
     <h3>Support & Maintenance</h3>
-    <p>Hands-on local support for hardware, software, and networks.</p>
-  </article>
+    <p>Local hands-on hardware & software support.</p>
+  </div>
 
 </div>
 
@@ -119,65 +110,74 @@
       <p class="section-sub">We focus on clarity, reliability, and long-term value.</p>
 
       <ul class="why-list">
-        <li><strong>Local support:</strong> Fast response from a team that knows the region.</li>
-        <li><strong>Security-first:</strong> Every solution is built with protection in mind.</li>
-        <li><strong>Predictable timelines:</strong> Transparent scopes and clear communication.</li>
+        <li><strong>Quality Service:</strong> The foundation of everything we build.</li>
+        <li><strong>Expert Services:</strong> dedicated to building solutions that drive real-world impact.</li>
+        <li><strong>Excellent support:</strong> unmatched support that ensures your systems run smoothly.</li>
         <li><strong>Experienced team:</strong> Multi-disciplinary professionals you can trust.</li>
-        <li><strong>End-to-end delivery:</strong> From planning to implementation & support.</li>
+        <li><strong>Management:</strong>  We believe strong leadership is the foundation of innovation, quality, and customer success.</li>
       </ul>
     </div>
   </section>
 
 
   <!-- CONTACT SECTION -->
-  <section id="contact" class="section contact">
-    <div class="wrap narrow">
-      <h2 class="section-title">Get in Touch</h2>
-      <p class="section-sub">We usually respond within 24 hours.</p>
+ <section id="contact" class="section contact">
+  <div class="wrap narrow">
 
-      <form id="contact-form" class="form" action="#" novalidate>
-        <div class="form-grid">
+    <h2 class="section-title">Get in Touch</h2>
+    <p class="section-sub">Reach us through any of the channels below.</p>
 
-          <label>
-            <span class="label">Your Name</span>
-            <input type="text" name="name" id="name" required />
-          </label>
+    <div class="contact-cards">
 
-          <label>
-            <span class="label">Email</span>
-            <input type="email" name="email" id="email" required />
-          </label>
-
-          <label class="full">
-            <span class="label">Message</span>
-            <textarea name="message" id="message" rows="5" required></textarea>
-          </label>
-
-          <div class="form-actions full">
-            <button type="submit" class="btn btn-primary">Send</button>
-          </div>
-
+      <!-- LOCATION -->
+      <div class="contact-card">
+        <div class="icon-circle">
+          📍
         </div>
-
-        <p id="form-result" class="form-result" aria-live="polite"></p>
-      </form>
-
-      <div class="contact-details">
-        <p><strong>Email:</strong> contact@agapeict.com</p>
-        <p><strong>Phone:</strong> +256 700 000000</p>
-        <p><strong>Location:</strong> Kampala, Uganda</p>
+        <h3>Location</h3>
+        <p>Kampala, Uganda</p>
       </div>
+
+      <!-- EMAIL -->
+      <div class="contact-card">
+        <div class="icon-circle">
+          ✉️
+        </div>
+        <h3>Email</h3>
+        <p><a href="mailto:ankundabeth07@gmail.com">info@agapeict.com</a></p>
+      </div>
+
+      <!-- PHONE -->
+      <div class="contact-card">
+        <div class="icon-circle">
+          📞
+        </div>
+        <h3>Phone</h3>
+        <p>+256 700 000000</p>
+      </div>
+
+      <!-- WHATSAPP -->
+      <div class="contact-card">
+        <div class="icon-circle">
+          💬
+        </div>
+        <h3>WhatsApp</h3>
+        <p><a href="https://wa.me/256752566630" target="_blank">Chat on WhatsApp</a></p>
+      </div>
+
     </div>
-  </section>
+
+  </div>
+</section>
+
 
 </main>
 
 
-  <footer class="site-footer">
-    <div class="wrap footer-inner">
-      <p>© <span id="year"></span> Agape ICT · Trusted local ICT partner</p>
-      <a href="https://advanced-brands.github.io/Portfolio/">Landing sites</a>
-    </div>
+  <footer>
+    <p>© 2025 AGAPE ICT ASSOCIATION |  | <a
+        href="https://advanced-brands.github.io/Portfolio/" target="_blank" rel="noopener">Landing sites</a></p>
+
   </footer>
 
   <script src="script.js"></script>
